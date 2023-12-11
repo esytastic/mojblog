@@ -38,7 +38,7 @@ get_header();
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="<?php echo get_template_directory_uri()."assets/imgs/avatar.jpg"; ?>" alt="" class="brand-img">
+                    <img src="<?php echo get_template_directory_uri()."/assets/imgs/avatar.jpg"; ?>" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">John Doe</h5>
                         <div class="brand-subtitle">Web Designer | Developer</div>
@@ -459,9 +459,9 @@ get_header();
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="<?php echo get_template_directory_uri()."assets/imgs/web-1.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/web-1.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
-                                <a class="img-popup" href="<?php echo get_template_directory_uri()."assets/imgs/web-1.jpg"; ?>"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/web-1.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -471,9 +471,9 @@ get_header();
                     </div>
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="<?php echo get_template_directory_uri()."assets/imgs/web-2.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/web-2.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
-                                <a class="img-popup" href="<?php echo get_template_directory_uri()."assets/imgs/web-2.jpg"; ?>"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/web-2.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -483,9 +483,9 @@ get_header();
                     </div>
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="<?php echo get_template_directory_uri()."assets/imgs/advertising-2.jpg";?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/advertising-2.jpg";?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
-                                <a class="img-popup" href="<?php echo get_template_directory_uri()."assets/imgs/advertising-2.jpg"; ?>"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/advertising-2.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSTISING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -495,9 +495,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
-                            <img src="<?php echo get_template_directory_uri()."assets/imgs/web-4.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/web-4.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
-                                <a class="img-popup" href="<?php echo get_template_directory_uri()."assets/imgs/web-4.jpg"; ?>"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/web-4.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -508,9 +508,9 @@ get_header();
 
                     <div class="col-md-6 col-lg-4 advertising"> 
                         <div class="portfolio-item">
-                            <img src="<?php echo get_template_directory_uri()."assets/imgs/advertising-1.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/advertising-1.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
-                                <a class="img-popup" href="<?php echo get_template_directory_uri()."assets/imgs/advertising-1.jpg"; ?>"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/advertising-1.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSITING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -520,9 +520,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/web-3.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/web-3.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -532,9 +532,9 @@ get_header();
                     </div>
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/advertising-3.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/advertising-3.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSITING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -544,9 +544,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 advertising new"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/advertising-4.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/advertising-4.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERTISING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -557,9 +557,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/branding-1.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/branding-1.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -569,9 +569,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/branding-2.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/branding-2.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -581,9 +581,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/branding-3.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/branding-3.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -593,9 +593,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/branding-4.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/branding-4.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -605,9 +605,9 @@ get_header();
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <img src="<?php echo get_template_directory_uri()."/assets/imgs/branding-5.jpg"; ?>" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <a class="img-popup" href="<?php echo get_template_directory_uri()."/assets/imgs/branding-5.jpg"; ?>"></a>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -627,7 +627,7 @@ get_header();
             <div class="row">
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="<?php echo get_template_directory_uri()."/assets/imgs/blog1.jpg"; ?>" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h6 class="title">Consectetur adipisicing elit</h6>
@@ -650,7 +650,7 @@ get_header();
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="<?php echo get_template_directory_uri()."/assets/imgs/blog2.jpg"; ?>" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h6 class="title">Explicabo illo</h6>
@@ -669,7 +669,7 @@ get_header();
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="<?php echo get_template_directory_uri()."/assets/imgs/blog3.jpg"; ?>" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h4 class="title">Porro Quisqua</h4>
