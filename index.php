@@ -13,6 +13,9 @@ while (have_posts()) {
   </h1>
 
   <?php
+
+  the_content();
+
 }
 
 get_footer();
