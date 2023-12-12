@@ -20,6 +20,12 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
   <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
       class="ti-shift-left-alt"></i> Components</a>
+
+  <?php
+
+  if (is_front_page()) {
+    ?>
+
   <header class="header">
     <div class="container">
       <ul class="social-icons pt-3">
@@ -42,6 +48,19 @@
       </div>
     </div>
   </header>
+
+
+    <?php
+  } else {
+    ?>
+
+    <?php
+
+  }
+
+  ?>
+
+
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
     <div class="container">
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -68,7 +87,7 @@
           </li>
         </ul>
         <!-- <ul class="navbar-nav ml-auto"> -->
-          <!-- <li class="nav-item">
+        <!-- <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
@@ -77,17 +96,18 @@
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li> -->
-          <?php
-          $args = array(
-            'theme_location' => 'primary',
-            'container_class'=> '',
-            'add_li_class'=> 'nav-item',
-            'menu_class'=> 'navbar-nav ml-auto',
-          );
+        <?php
+        $args = array(
+          'theme_location' => 'primary',
+          'container_class' => '',
+          'add_li_class' => 'nav-item',
+          'menu_class' => 'navbar-nav ml-auto',
+        );
 
-          wp_nav_menu($args);
-          ?>
+        wp_nav_menu($args);
+        ?>
         <!-- </ul> -->
       </div>
     </div>
   </nav>
+
